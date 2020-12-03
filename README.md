@@ -10,6 +10,7 @@
 - Faça o clone do repositório ->  https://github.com/HenriqueRicardoFigueira/AnuncioCarrosQ.git
 - Crie um banco de dados com o nome de Dbteste
 - Subistitua o valor do campo DbConnection no arquivo appsettings.json pela cadeia de conexão do seu banco local.
+- Execute o aplicativo.
 
 # Referências:
 - Visão geral das migrações:
