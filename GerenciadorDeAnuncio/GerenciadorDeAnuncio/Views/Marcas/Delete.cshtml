@@ -1,7 +1,7 @@
 ﻿@model GerenciadorDeAnuncio.Models.Marca
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar Marca";
 }
 
 <h1>Delete</h1>
@@ -21,7 +21,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
     </form>
 </div>

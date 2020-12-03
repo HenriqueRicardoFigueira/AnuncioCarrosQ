@@ -1,7 +1,7 @@
 ﻿@model GerenciadorDeAnuncio.Models.Anuncio
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Anuncio";
 }
 
 <h1>Criar Novo</h1>
@@ -43,7 +43,7 @@
             <div class="form-group">
                 <label asp-for="TipoCombustivel" class="control-label"></label>
                 <input asp-for="TipoCombustivel" class="form-control" />
-                <span asp-validation-for="Tipo Combustivel" class="text-danger"></span>
+                <span asp-validation-for="TipoCombustivel" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DataVenda" class="control-label"></label>
@@ -51,14 +51,14 @@
                 <span asp-validation-for="DataVenda" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
 </div>
 
 @section Scripts {
